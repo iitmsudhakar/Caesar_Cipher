@@ -1,3 +1,8 @@
+'''This python code will decrypt the given text file using Caesar Chipher decryption logic.
+Place this .py file in the same directory as the text file that needs to be decrypted.
+Provide the file name with .txt extention and the secret key value.
+'''
+
 import string
 
 def decrypt_char(k):
@@ -27,9 +32,9 @@ def decrypt_num(k):
 
 # Get the input from user
 source_file = input("Enter the text file name with externtion: ")
-print(source_file)
+#print(source_file)
 k = int(input('Enter the secret key value: '))
-print(k)
+#print(k)
 # File Handling
 f = open(source_file,'r')
 # Create the Encrypted file
